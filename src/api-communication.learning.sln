@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gRPC", "gRPC", "{6D50C3C6-0456-4664-8F2C-E568343799D3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GraphQL", "GraphQL", "{0D257E9D-FD42-4D46-AF41-C6CF8DA74087}"
@@ -18,20 +21,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "by Docs", "by Docs", "{10B5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "by Tim Corey", "by Tim Corey", "{0E4501E2-1D95-40FB-B5CD-79A04F6529DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimCorey.Grpc.Server", "TimCorey.Grpc.Server\TimCorey.Grpc.Server.csproj", "{7AC8B5C0-3897-4680-B413-A407327ECB54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimCorey.Grpc.Server", "TimCorey.Grpc.Server\TimCorey.Grpc.Server.csproj", "{7AC8B5C0-3897-4680-B413-A407327ECB54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimCorey.Grpc.Client", "TimCorey.Grpc.Client\TimCorey.Grpc.Client.csproj", "{03323142-99A1-4E54-98C9-123ECD5CEB31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimCorey.Grpc.Client", "TimCorey.Grpc.Client\TimCorey.Grpc.Client.csproj", "{03323142-99A1-4E54-98C9-123ECD5CEB31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "by James Newton-King", "by James Newton-King", "{2BED20F5-AA01-41B9-A74E-24D6D52D9FE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesNewtonKing.Grpc.Server", "JamesNewtonKing.Grpc.Server\JamesNewtonKing.Grpc.Server.csproj", "{E22F80B5-EBC8-459A-947A-FE5E808943D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{10B59E1F-033E-41FF-9C14-EDEE3574BB0E} = {6D50C3C6-0456-4664-8F2C-E568343799D3}
-		{0E4501E2-1D95-40FB-B5CD-79A04F6529DC} = {6D50C3C6-0456-4664-8F2C-E568343799D3}
-		{7AC8B5C0-3897-4680-B413-A407327ECB54} = {0E4501E2-1D95-40FB-B5CD-79A04F6529DC}
-		{03323142-99A1-4E54-98C9-123ECD5CEB31} = {0E4501E2-1D95-40FB-B5CD-79A04F6529DC}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7AC8B5C0-3897-4680-B413-A407327ECB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -42,5 +43,23 @@ Global
 		{03323142-99A1-4E54-98C9-123ECD5CEB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03323142-99A1-4E54-98C9-123ECD5CEB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03323142-99A1-4E54-98C9-123ECD5CEB31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E22F80B5-EBC8-459A-947A-FE5E808943D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E22F80B5-EBC8-459A-947A-FE5E808943D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E22F80B5-EBC8-459A-947A-FE5E808943D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E22F80B5-EBC8-459A-947A-FE5E808943D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10B59E1F-033E-41FF-9C14-EDEE3574BB0E} = {6D50C3C6-0456-4664-8F2C-E568343799D3}
+		{0E4501E2-1D95-40FB-B5CD-79A04F6529DC} = {6D50C3C6-0456-4664-8F2C-E568343799D3}
+		{7AC8B5C0-3897-4680-B413-A407327ECB54} = {0E4501E2-1D95-40FB-B5CD-79A04F6529DC}
+		{03323142-99A1-4E54-98C9-123ECD5CEB31} = {0E4501E2-1D95-40FB-B5CD-79A04F6529DC}
+		{2BED20F5-AA01-41B9-A74E-24D6D52D9FE2} = {6D50C3C6-0456-4664-8F2C-E568343799D3}
+		{E22F80B5-EBC8-459A-947A-FE5E808943D4} = {2BED20F5-AA01-41B9-A74E-24D6D52D9FE2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81AADF84-1A30-44E9-8CEE-16E1C2AB73AF}
 	EndGlobalSection
 EndGlobal

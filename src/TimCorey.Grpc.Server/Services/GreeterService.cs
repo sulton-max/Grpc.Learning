@@ -1,5 +1,5 @@
 using Grpc.Core;
-using TimCorey.Grpc.Server;
+using Grpc.Server;
 
 namespace TimCorey.Grpc.Server.Services;
 
